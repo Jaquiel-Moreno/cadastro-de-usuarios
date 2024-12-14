@@ -39,8 +39,7 @@
  
 
 ### USER MONGO DB
-   user jaquielmoreno                     
-   senha 8448
+  
 
   mudar o ip para todos network acess
 ## PRISMA DEFINIÇÃO
@@ -170,7 +169,7 @@ servidor.com/usuarios?tipo=comedi&streming=netflix
 
 Colocando informações no query params
 
-http://localhost:3000/usuarios?name=ValdeliceMoreno&age=59
+
 
  ### FORMAT CODE 
   ALT + SHIFT + F
