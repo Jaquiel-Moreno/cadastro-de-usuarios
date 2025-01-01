@@ -17,7 +17,7 @@
       PUT      ====>  EDITAR VÁRIOS
       PATCH    ====>  EDITAR UM
       DELETE   ====>  DELATAR 
-      
+
     Endereço 
      app.get('/users')  
      app.post('/users') 
@@ -187,4 +187,10 @@ Colocando informações no query params
 Regenerar o Cliente : Após qualquer alteração no modelo Prisma,   
 execute 
  npx prisma generate  
- para garantir que as alterações sejam refletidas no cliente.
+ para garantir que as alterações sejam refletidas no cliente. 
+
+
+  
+
+  ### COMANDO PARA RETORNAR A BRANCH ATUAL
+  git checkout feature

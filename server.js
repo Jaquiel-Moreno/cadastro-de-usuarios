@@ -80,8 +80,6 @@ app.get("/usuarios", async (req, res) => {
         name : req.query.name,
         age  : req.query.age,
         uf   : req.query.uf
-   
-
       }
     })
 
