@@ -16,4 +16,7 @@ model User {
   email   String   @unique
   name    String
   age     String
+  uf      String
+  
 }
+

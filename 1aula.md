@@ -16,7 +16,8 @@
       POST     ====>  CRIAR
       PUT      ====>  EDITAR VÁRIOS
       PATCH    ====>  EDITAR UM
-      DELETE   ====>  DELATAR
+      DELETE   ====>  DELATAR 
+      
     Endereço 
      app.get('/users')  
      app.post('/users') 
@@ -174,3 +175,16 @@ Colocando informações no query params
  ### FORMAT CODE 
   ALT + SHIFT + F
 
+### MODELO JSON USER
+
+{
+  "email": "mariavaldelice.moreno@outlook.com",
+  "name": "Valdelice Moreno",
+  "age": "58",
+  "uf": "Maranhao-MA"
+}
+### GARANTE ATUALIZAÇÃO DO CODIGO
+Regenerar o Cliente : Após qualquer alteração no modelo Prisma,   
+execute 
+ npx prisma generate  
+ para garantir que as alterações sejam refletidas no cliente.

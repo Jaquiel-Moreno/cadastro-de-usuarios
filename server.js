@@ -15,8 +15,10 @@ app.post("/usuarios", async (req, res) => {
   await prisma.user.create({
     data: {
       email: req.body.email,
-      name: req.body.name,
-      age: req.body.age
+      name:  req.body.name,
+      age:   req.body.age,
+      uf:    req.body.uf
+   
     }
   })
 
@@ -38,8 +40,10 @@ app.put("/usuarios/:id", async (req, res) => {
 
     data: {
       email: req.body.email,
-      name: req.body.name,
-      age: req.body.age
+      name:  req.body.name,
+      age:   req.body.age,
+      uf:    req.body.uf
+
     }
   })
 
@@ -74,7 +78,9 @@ app.get("/usuarios", async (req, res) => {
       where: {
         email: req.query.email,
         name : req.query.name,
-        age  : req.query.age
+        age  : req.query.age,
+        uf   : req.query.uf
+   
 
       }
     })
