@@ -86,3 +86,13 @@ img{
     height: 19px;
     width: 15px;
 }
+.clearField{
+    background: red;
+    border: none;
+    cursor: pointer;
+
+}
+.clearField:hover {
+    background: yellow; 
+   
+}
