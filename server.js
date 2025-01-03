@@ -76,6 +76,7 @@ app.get("/usuarios", async (req, res) => {
 
     users = await prisma.user.findMany({
       where: {
+        id   : req.query.id,
         email: req.query.email,
         name : req.query.name,
         age  : req.query.age,
@@ -93,3 +94,6 @@ app.get("/usuarios", async (req, res) => {
 
 
 app.listen(3000)
+
+
+

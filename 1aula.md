@@ -110,6 +110,24 @@ npx prisma db push
 Now that you have generated Prisma Client, you can start writing queries to read and write data in your database. For the purpose of this guide, you'll use a plain Node.js script to explore some basic features of Prisma Client.
 
 Create a new file named index.js and add the following code to it:
+###  Thunder Client (extensão do VS Code)
+
+O Thunder Client é uma extensão para o Visual Studio Code que oferece uma interface gráfica para testar APIs REST, semelhante ao Postman. Com ele, você pode fazer requisições HTTP (GET, POST, PUT, DELETE, etc.) diretamente dentro do VS Code.
+
+Como instalar e usar:
+Instalar a extensão:
+
+Abra o VS Code.
+Vá para a aba de Extensões (ou use o atalho Ctrl+Shift+X).
+Pesquise por Thunder Client e clique em Instalar.
+Usar Thunder Client:
+
+Após instalar, você verá um ícone de Thunder na barra lateral.
+Clique nele para abrir a interface do Thunder Client.
+Você pode criar novas requisições e configurar os detalhes (método HTTP, URL, cabeçalhos, corpo, etc.).
+Exemplos de uso:
+GET: Para obter dados de uma API.
+POST: Para enviar dados para um servidor (como quando você está criando um novo usuário em um sistema).
 
 
 ## ABRIR STUDIO USER 
@@ -194,3 +212,13 @@ execute
 
   ### COMANDO PARA RETORNAR A BRANCH ATUAL
   git checkout feature
+
+### PARA DELETAR, UPDATE FORMATO CORRETO  
+
+http://localhost:3000/usuarios/6775d5e1cca80d4107571a24 
+
+
+###   QUERY FORMATO CORRETO FILTRO
+
+  http://localhost:3000/usuarios?id=677813fd6b5bbf137a64aea3
+ 
